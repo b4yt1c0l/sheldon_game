@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Electrolize&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Electrolize, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    color: #3a3a3a;
+}
