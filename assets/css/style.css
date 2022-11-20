@@ -11,4 +11,18 @@ body {
     font-weight: 400;
     margin: 0 auto;
     color: #3a3a3a;
+    max-width: 1200px;
+    text-align: center;
+}
+
+#main_image {
+    background-image: url('../images/main_image.png');
+    min-height: 350px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -7.5rem;
+    overflow: hidden;
 }
