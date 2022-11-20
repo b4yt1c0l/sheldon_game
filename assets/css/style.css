@@ -26,3 +26,12 @@ body {
     background-position-y: -7.5rem;
     overflow: hidden;
 }
+
+#rules {
+    min-height: 150px;
+    padding-top: 20px;
+}
+
+#rules h2 {
+    color: red;
+}
