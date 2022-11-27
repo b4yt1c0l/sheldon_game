@@ -61,3 +61,34 @@ body {
 .selection p {
     padding-top: 10px;
 }
+
+#players {
+    padding: 30px;
+    color: rgb(31, 31, 56);
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+#players h2 {
+    padding: 8px;
+}
+
+#players span {
+    text-transform: uppercase;
+    color: red;
+}
+
+#result {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: navy;
+}
+
+#score {
+    padding: 25px;
+    text-transform: uppercase;
+}
+
+#score span {
+    color: blue;
+}
