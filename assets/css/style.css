@@ -35,3 +35,29 @@ body {
 #rules h2 {
     color: red;
 }
+
+#buttons {
+    padding-top: 3rem;
+}
+
+.selection {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    color: aqua;
+    font-size: 2rem;
+    background-color: crimson;
+    border: 3px solid;
+    border-color: chartreuse;
+    margin: 2%;
+}
+
+.selection:hover {
+    cursor: pointer;
+    color: blueviolet;
+    background-color: darkorange;
+}
+
+.selection p {
+    padding-top: 10px;
+}
