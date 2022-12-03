@@ -27,7 +27,7 @@ function rand_selection() {
     }
 
     /*** Machine player random selection element into the document */
-    let machineSel = document.getElementById('machine_choice');
+    const machineSel = document.getElementById('machine_choice');
     machineSel.innerHTML = machine;
 
 }
