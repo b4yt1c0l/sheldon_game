@@ -16,7 +16,7 @@ body {
 }
 
 #main_image {
-    background-image: url('../images/main_image.png');
+    background-image: url('../images/main_image.jpg');
     min-height: 350px;
     height: auto;
     width: 100%;
@@ -30,6 +30,11 @@ body {
 #rules {
     min-height: 150px;
     padding-top: 20px;
+}
+
+#rules h1 {
+    font-size: x-large;
+    margin-bottom: 5px;
 }
 
 #rules h2 {
