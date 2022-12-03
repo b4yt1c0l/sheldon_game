@@ -1,15 +1,14 @@
-/*** Obtain a list of matches - MDN */
+/*** Obtain a list of matches - ref.: MDN */
 const selButtons = document.querySelectorAll("button");
 
 /*** Human player selection element into the document */
-const humanSel = document.getElementById('human_choice');
+let humanSel = document.getElementById('human_choice');
 
-/*** Machine player random selection element into the document */
-const machineSel = document.getElementById('machine_choice');
-
-/*** Variables to store players selection value */
-let machine;
+/*** Variables to store human player selection value */
 let human;
+
+/*** Variables to store machine player selection value */
+let machine;
 
 /*** Function to generate random selection for machine player */
 function rand_selection() {
@@ -27,6 +26,8 @@ function rand_selection() {
         machine = 'spock';
     }
 
+    /*** Machine player random selection element into the document */
+    let machineSel = document.getElementById('machine_choice');
     machineSel.innerHTML = machine;
 
 }
