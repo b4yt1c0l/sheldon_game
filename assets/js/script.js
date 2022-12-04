@@ -1,13 +1,13 @@
 /*** Obtain a list of matches - ref.: MDN */
 const selButtons = document.querySelectorAll("button");
 
-/*** Human player selection element into the document */
+/*** Human player selection element into the document (this needs to be global) */
 let humanSel = document.getElementById('human_choice');
 
-/*** Variables to store human player selection value */
+/*** Variables to store human player selection value (this needs to be global) */
 let human;
 
-/*** Variables to store machine player selection value */
+/*** Variables to store machine player selection value (this needs to be global) */
 let machine;
 
 /*** Function to generate random selection for machine player */
@@ -34,9 +34,58 @@ function rand_selection() {
 
 //rand_selection();
 
-
+/*** Function to check match result based on human and machine selection */
 function result() {
+    /*** Variables to store result */
+    let result;
 
+    if (human === 'rock' && machine === 'paper') {
+        result = 'Bazinga! You lose!';
+    } else if (human === 'rock' && machine === 'scissors') {
+        result = 'You win!';
+    } else if (human === 'rock' && machine === 'lizard') {
+        result = 'You win!';
+    } else if (human === 'rock' && machine === 'spock') {
+        result = 'Bazinga! You lose!';
+    } else if (human === 'paper' && machine === 'rock') {
+        result = 'You win!';
+    } else if (human === 'paper' && machine === 'scissors') {
+        result = 'Bazinga! You lose!';
+    } else if (human === 'paper' && machine === 'lizard') {
+        result = 'Bazinga! You lose!';
+    } else if (human === 'paper' && machine === 'spock') {
+        result = 'You win!';
+    } else if (human === 'scissors' && machine === 'rock') {
+        result = 'Bazinga! You lose!';
+    } else if (human === 'scissors' && machine === 'paper') {
+        result = 'You win!';
+    } else if (human === 'scissors' && machine === 'lizard') {
+        result = 'You win!';
+    } else if (human === 'scissors' && machine === 'spock') {
+        result = 'Bazinga! You lose!';
+    } else if (human === 'lizard' && machine === 'rock') {
+        result = 'Bazinga! You lose!';
+    } else if (human === 'lizard' && machine === 'paper') {
+        result = 'You win!';
+    } else if (human === 'lizard' && machine === 'scissors') {
+        result = 'Bazinga! You lose!';
+    } else if (human === 'lizard' && machine === 'spock') {
+        result = 'You win!';
+    } else if (human === 'spock' && machine === 'rock') {
+        result = 'You win!';
+    } else if (human === 'spock' && machine === 'paper') {
+        result = 'Bazinga! You lose!';
+    } else if (human === 'spock' && machine === 'scissors') {
+        result = 'You win!';
+    } else if (human === 'spock' && machine === 'lizard') {
+        result = 'Bazinga! You lose!';
+    } else {
+        result = 'Draw!';
+    }
+
+    /*** Result output element into the document */
+    const resultOutput = document.getElementById('result_value');
+    resultOutput.innerHTML = result;
 }
 
 function score() {
