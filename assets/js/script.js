@@ -40,45 +40,45 @@ function result() {
     let result;
 
     if (human === 'rock' && machine === 'paper') {
-        result = 'Bazinga! You lose!';
+        result = 'You lose!';
     } else if (human === 'rock' && machine === 'scissors') {
         result = 'You win!';
     } else if (human === 'rock' && machine === 'lizard') {
         result = 'You win!';
     } else if (human === 'rock' && machine === 'spock') {
-        result = 'Bazinga! You lose!';
+        result = 'You lose!';
     } else if (human === 'paper' && machine === 'rock') {
         result = 'You win!';
     } else if (human === 'paper' && machine === 'scissors') {
-        result = 'Bazinga! You lose!';
+        result = 'You lose!';
     } else if (human === 'paper' && machine === 'lizard') {
-        result = 'Bazinga! You lose!';
+        result = 'You lose!';
     } else if (human === 'paper' && machine === 'spock') {
         result = 'You win!';
     } else if (human === 'scissors' && machine === 'rock') {
-        result = 'Bazinga! You lose!';
+        result = 'You lose!';
     } else if (human === 'scissors' && machine === 'paper') {
         result = 'You win!';
     } else if (human === 'scissors' && machine === 'lizard') {
         result = 'You win!';
     } else if (human === 'scissors' && machine === 'spock') {
-        result = 'Bazinga! You lose!';
+        result = 'You lose!';
     } else if (human === 'lizard' && machine === 'rock') {
-        result = 'Bazinga! You lose!';
+        result = 'You lose!';
     } else if (human === 'lizard' && machine === 'paper') {
         result = 'You win!';
     } else if (human === 'lizard' && machine === 'scissors') {
-        result = 'Bazinga! You lose!';
+        result = 'You lose!';
     } else if (human === 'lizard' && machine === 'spock') {
         result = 'You win!';
     } else if (human === 'spock' && machine === 'rock') {
         result = 'You win!';
     } else if (human === 'spock' && machine === 'paper') {
-        result = 'Bazinga! You lose!';
+        result = 'You lose!';
     } else if (human === 'spock' && machine === 'scissors') {
         result = 'You win!';
     } else if (human === 'spock' && machine === 'lizard') {
-        result = 'Bazinga! You lose!';
+        result = 'You lose!';
     } else {
         result = 'Draw!';
     }
