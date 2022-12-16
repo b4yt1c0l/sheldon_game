@@ -149,7 +149,6 @@ body {
         height: 1em;
         background-position: center;
     }
-
     
     .selection {
         width: 100px;
@@ -159,8 +158,6 @@ body {
     }
 }
 
-
-
 @media screen and (max-width: 415px) {
     #main_image {
         min-height: 200px;
@@ -169,7 +166,6 @@ body {
         background-position: center;
     }
 
-    
     .selection {
         width: 60px;
         height: 60px;
