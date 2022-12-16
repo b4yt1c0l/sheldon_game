@@ -1,14 +1,22 @@
 /*** Obtain a list of matches - ref.: MDN */
-const selButtons = document.querySelectorAll("button");
+const selButtons = document.querySelectorAll('button');
 
 /*** Human player selection element into the document (this needs to be global) */
-let humanSel = document.getElementById('human_choice');
+const humanSel = document.getElementById('human_choice');
 
 /*** Variables to store human player selection value (this needs to be global) */
 let human;
 
 /*** Variables to store machine player selection value (this needs to be global) */
 let machine;
+
+/***Variables for temp score */
+let hscore = 0;
+let mscore = 0;
+
+/*** Variables to store result */
+let result;
+
 
 /*** Function to generate random selection for machine player */
 function rand_selection() {
@@ -32,12 +40,9 @@ function rand_selection() {
 
 }
 
-//rand_selection();
-
 /*** Function to check match result based on human and machine selection */
-function result() {
-    /*** Variables to store result */
-    let result;
+function evaluation() {
+
 
     if (human === 'rock' && machine === 'paper') {
         result = 'You lose!';
@@ -79,7 +84,7 @@ function result() {
         result = 'You win!';
     } else if (human === 'spock' && machine === 'lizard') {
         result = 'You lose!';
-    } else {
+    } else if (human === machine){ 
         result = 'Draw!';
     }
 
@@ -88,6 +93,22 @@ function result() {
     resultOutput.innerHTML = result;
 }
 
+/***Function to check and display score */
 function score() {
-
+    if (result === 'You win!') {
+        hscore = ++hscore;
+    } else if (result === 'You lose!') {
+        mscore = ++mscore;
+    }
+    document.getElementById('human_score').innerHTML = hscore;
+    document.getElementById('machine_score').innerHTML = mscore;
 }
+
+/*** Main */
+selButtons.forEach(sel => sel.addEventListener('click', (btn_click) => {
+    human = btn_click.target.id;
+    document.getElementById('human_choice').innerHTML = human;
+    rand_selection();
+    evaluation();
+    score();
+}));
