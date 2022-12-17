@@ -64,5 +64,47 @@ The game itself consists in five circle red buttons. They are clickable and when
 
 At the end of the game, users can find the social media icons. They can click on them following the game on the main social medias.
 
+## Other Features
+
+### Fonts
+
+As Fonts I have selected:
+
+- Audiowide
+- Electrolize
+
+They are both squared fonts and they help give a futuristic and sci-fi look to the game.
+
+### Colors
+
+For this game I chose to use red and blue on an optical white background in order to remind of space vibes.
+
+# Applications
+
+I have utilised several technologies to complete this game:
+
+1.  [HTML](https://www.w3schools.com/html/)
+
+2.  [CSS](https://www.w3schools.com/css/default.asp)
+
+3.  [Javascript](https://www.w3schools.com/js/)
+
+4.  [Previewer](https://ui.dev/amiresponsive)
+
+5.  [Google-DevTools](https://developer.chrome.com/docs/devtools/)
+
+6.  [Github](https://github.com/)
+
+7.  [Gitpod](https://gitpod.io/)
+
+8.  [Font-Awesome](https://fontawesome.com/start)
+
+8.  [HTML-Validator](https://validator.w3.org/)
+
+9.  [CSS-Validator](https://jigsaw.w3.org/css-validator/)
+
+10. [JS-Validator](https://jshint.com/)
+
+11. [Google-Fonts](https://fonts.google.com/)
 
 
