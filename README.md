@@ -41,3 +41,28 @@ Game rules are really "simple":
 
 But users don't need to know the rules, they can just try their lucky.
 
+## Game buttons
+
+![Responsice Mockup](https://github.com/b4yt1c0l/sheldon_game/blob/main/docs/images/sheldon-game-buttons.PNG)
+
+The game itself consists in five circle red buttons. They are clickable and when users hover the mouse on them, they change color on yellow.
+
+## Score Tab
+
+![Responsice Mockup](https://github.com/b4yt1c0l/sheldon_game/blob/main/docs/images/sheldon-score.PNG)
+
+- Users can select one of five option. 
+- If else function generates random selection for machine player.
+- Machine and player random selection puts element into the document.
+- After that an other if else function checks match result based on human and machine selection.
+- Results output element will be put into the document.
+- At the end a third if else function checks and display the score.
+
+## Footer
+
+![Responsice Mockup](https://github.com/b4yt1c0l/sheldon_game/blob/main/docs/images/sheldon-footer.PNG)
+
+At the end of the game, users can find the social media icons. They can click on them following the game on the main social medias.
+
+
+
