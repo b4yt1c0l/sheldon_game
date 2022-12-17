@@ -54,7 +54,7 @@ The game itself consists in five circle crimson buttons. When users hover the mo
 
 ## Score 
 
-A function in invoked to check the result value and display the updated score:
+A function is invoked to check the result value and display the updated score:
 
 ![Score](https://github.com/b4yt1c0l/sheldon_game/blob/main/docs/images/sheldon-score.PNG)
 
