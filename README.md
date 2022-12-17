@@ -107,4 +107,35 @@ I have utilised several technologies to complete this game:
 
 11. [Google-Fonts](https://fonts.google.com/)
 
+# Testing 
+
+## Lighthouse
+
+* The game has been tested in different browsers: Chrome, Firefox, Safari, Edge.
+* Game is clear and visible in each side.
+* Lighthouse results for mobile are really good:
+![Responsice Mockup](https://github.com/b4yt1c0l/sheldon_game/blob/main/docs/images/sheldon-lighthouse-mobile.PNG)
+* Lighthouse results for desktop are really good as well:
+![Responsice Mockup](https://github.com/b4yt1c0l/sheldon_game/blob/main/docs/images/sheldon-lighthouse-desktop.PNG)
+
+## Validators
+
+### HTML 
+No error founded for HTML [W3C-validator](https://validator.w3.org/)
+
+### CSS
+No error founded for HTML [W3C-validator](https://jigsaw.w3.org/css-validator/)
+
+### JS
+No error founded for HTML [JSHint JavaScript validator](https://jshint.com/)
+
+## Unfixed Bugs
+
+
+
+
+
+
+
+
 
