@@ -48,7 +48,7 @@ The game itself consists in five circle crimson buttons. When users hover the mo
 
 * Human player selects an option clicking a button.
 * A random selection is made using a function to generate a number between 1 and 5 associated to a valid option value.
-* A function determins the final result using an if else iteration.
+* A function determins the final result using an if else iteration, and displays it.
 
 ![Result](https://github.com/b4yt1c0l/sheldon_game/blob/main/docs/images/sheldon-result.PNG)
 
