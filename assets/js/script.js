@@ -27,7 +27,7 @@ function rand_selection() {
     } else if (randSel === 2) {
         machine = 'paper';
     } else if (randSel === 3) {
-        machine = 'scissor';
+        machine = 'scissors';
     } else if (randSel === 4) {
         machine = 'lizard';
     } else {
