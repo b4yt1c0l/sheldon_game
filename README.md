@@ -5,7 +5,7 @@
 ![Responsive Mockup](https://github.com/b4yt1c0l/sheldon_game/blob/main/docs/images/sheldon-preview.PNG)
 
 Sheldon Game is a Big Bang Theory funny version of the most popular "Rock, Paper, Scissor" avtivity. It is made more complicated by adding two more variables, thus becoming "Rock, Paper, Scissors, Lizard, Spock".
-It is an easy game and users don't need to know the rules to play. However you can find the rules explained in the website.
+It is an easy game and users don't need to know the rules to play. However, they can find the rules explained in the website.
 
 # Features
 
@@ -40,7 +40,7 @@ But users don't need to know the rules, they can just try their luck.
 
 ## Game buttons
 
-The game itself consists in five circle crimson buttons. When users hover the mouse on them, they change color to darkorange.
+The game itself consists in five clickable crimson buttons. When users hover the mouse on them, they change color to darkorange.
 
 ![Responsice Mockup](https://github.com/b4yt1c0l/sheldon_game/blob/main/docs/images/sheldon-game-buttons.PNG)
 
@@ -48,7 +48,7 @@ The game itself consists in five circle crimson buttons. When users hover the mo
 
 * Human player selects an option clicking a button.
 * A random selection is made using a function to generate a number between 1 and 5 associated to a valid option value.
-* A function determins the final result using an if else iteration, and displays it.
+* A function determines the final result using an if else iteration, and displays it.
 
 ![Result](https://github.com/b4yt1c0l/sheldon_game/blob/main/docs/images/sheldon-result.PNG)
 
