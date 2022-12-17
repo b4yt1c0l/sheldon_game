@@ -131,6 +131,20 @@ No error founded for HTML [JSHint JavaScript validator](https://jshint.com/)
 
 ## Unfixed Bugs
 
+Removed icons from the buttons to avoid unpredictable behaviour while clicking the icon element.
+
+# Content
+
+* I have written all the contens
+* All the icons in the website were taken from Font Awesome
+* For JS code I have used as reference [MDN](https://developer.mozilla.org/en-US/)
+
+# Media
+
+Main images has been taken by:
+
+* 
+
 
 
 
